@@ -2,14 +2,14 @@
 
 Ce projet React Native démontre l'utilisation des composants `TextInput` pour créer des écrans de saisie avec gestion d'état.
 
-## 📋 Objectifs
+##  Objectifs
 
 - Configurer un composant `TextInput` pour saisir du texte
 - Stocker le texte dans l'état local avec `useState`
 - Utiliser les props de `TextInput` : `placeholder`, `keyboardType`, `secureTextEntry`
 - Appliquer un style simple pour une interface propre
 
-## 🏗️ Structure du projet
+##  Structure du projet
 
 ```
 Lab 7/
@@ -22,7 +22,7 @@ Lab 7/
 └── README.md                   # Ce fichier
 ```
 
-## 🚀 Installation
+##  Installation
 
 1. Assurez-vous d'avoir un projet React Native configuré (Expo ou React Native CLI)
 
@@ -35,7 +35,7 @@ Lab 7/
    yarn install
    ```
 
-## 💻 Utilisation
+##  Utilisation
 
 ### Écran d'accueil (WelcomeScreen)
 
@@ -61,7 +61,7 @@ L'écran de connexion affiche :
 - `keyboardType="email-address"` pour le champ email
 - `secureTextEntry={true}` pour le champ mot de passe
 
-## 🔄 Basculer entre les écrans
+##  Basculer entre les écrans
 
 Pour afficher l'écran de connexion au lieu de l'écran d'accueil dans `App.js` :
 
@@ -69,7 +69,7 @@ Pour afficher l'écran de connexion au lieu de l'écran d'accueil dans `App.js` 
 2. Remplacez `<WelcomeScreen />` par `<LoginScreen />`
 3. (Optionnel) Commentez l'import de `WelcomeScreen`
 
-## 📱 Props TextInput utilisées
+##  Props TextInput utilisées
 
 - **`value`** : Lie le champ à une valeur d'état
 - **`onChangeText`** : Fonction appelée à chaque modification du texte
@@ -77,14 +77,14 @@ Pour afficher l'écran de connexion au lieu de l'écran d'accueil dans `App.js` 
 - **`keyboardType`** : Type de clavier affiché ("email-address", "default", etc.)
 - **`secureTextEntry`** : Masque les caractères (pour les mots de passe)
 
-## 🎨 Styles
+##  Styles
 
 Les styles utilisent une palette de couleurs sombre :
 - Fond : `#333333`
 - Texte : `#EDEFEE`
 - Champs de saisie : Fond blanc avec bordure claire
 
-## 📚 Concepts React Native abordés
+##  Concepts React Native abordés
 
 - Composants fonctionnels
 - Hook `useState` pour la gestion d'état
@@ -92,7 +92,7 @@ Les styles utilisent une palette de couleurs sombre :
 - `StyleSheet` pour le styling
 - `ScrollView` pour le défilement
 
-## 🔮 Améliorations possibles
+##  Améliorations possibles
 
 - Ajouter un bouton "Valider" qui affiche le prénom/email dans une alerte
 - Validation simple (email non vide, mot de passe avec longueur minimale)
@@ -100,6 +100,3 @@ Les styles utilisent une palette de couleurs sombre :
 - Gestion des erreurs de validation
 - Animation lors de la soumission
 
-## 📝 Notes
-
-Ce projet est conçu pour un environnement d'apprentissage. Les composants `AppHeader` et `AppFooter` sont supposés exister dans le projet.
